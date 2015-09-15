@@ -1,0 +1,16 @@
+{
+  "name": "cpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "robin",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^1.8.4"
+  }
+}

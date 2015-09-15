@@ -1,0 +1,41 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json cpm1@1.0.0 No description
+6 warn package.json cpm1@1.0.0 No repository field.
+7 warn package.json cpm1@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/var/www/html/Omniscient_server/cpm1', [ 'nan' ] ]
+10 info preinstall cpm1@1.0.0
+11 verbose readDependencies using package.json deps
+12 verbose already installed skipping nan@^1.8.4 /var/www/html/Omniscient_server/cpm1
+13 silly resolved []
+14 info build /var/www/html/Omniscient_server/cpm1
+15 verbose linkStuff [ false, false, false, '/var/www/html/Omniscient_server' ]
+16 info linkStuff cpm1@1.0.0
+17 verbose linkBins cpm1@1.0.0
+18 verbose linkMans cpm1@1.0.0
+19 verbose rebuildBundles cpm1@1.0.0
+20 verbose rebuildBundles [ 'nan' ]
+21 info install cpm1@1.0.0
+22 verbose unsafe-perm in lifecycle true
+23 info cpm1@1.0.0 Failed to exec install script
+24 error cpm1@1.0.0 install: `node-gyp rebuild`
+24 error Exit status 1
+25 error Failed at the cpm1@1.0.0 install script.
+25 error This is most likely a problem with the cpm1 package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     node-gyp rebuild
+25 error You can get their info via:
+25 error     npm owner ls cpm1
+25 error There is likely additional logging output above.
+26 error System Linux 3.13.0-55-generic
+27 error command "/usr/bin/node" "/usr/bin/npm" "install"
+28 error cwd /var/www/html/Omniscient_server/cpm1
+29 error node -v v0.10.37
+30 error npm -v 1.4.28
+31 error code ELIFECYCLE
+32 verbose exit [ 1, true ]
